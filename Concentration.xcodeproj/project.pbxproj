@@ -13,6 +13,8 @@
 		65AA9DE328E523B0002AEA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AA9DE128E523B0002AEA6F /* Main.storyboard */; };
 		65AA9DE528E523B1002AEA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AA9DE428E523B1002AEA6F /* Assets.xcassets */; };
 		65AA9DE828E523B1002AEA6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AA9DE628E523B1002AEA6F /* LaunchScreen.storyboard */; };
+		BE3F48AD28EB1D5B0081C080 /* Concentraion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3F48AC28EB1D5B0081C080 /* Concentraion.swift */; };
+		BE3F48AF28EB1DD00081C080 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3F48AE28EB1DD00081C080 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		65AA9DE728E523B1002AEA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65AA9DE928E523B1002AEA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65AA9DF028E52427002AEA6F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BE3F48AC28EB1D5B0081C080 /* Concentraion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentraion.swift; sourceTree = "<group>"; };
+		BE3F48AE28EB1DD00081C080 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 		65AA9DDA28E523B0002AEA6F /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				65AA9DEF28E523F8002AEA6F /* Support Files */,
 				65AA9DDF28E523B0002AEA6F /* ViewController.swift */,
+				BE3F48AC28EB1D5B0081C080 /* Concentraion.swift */,
+				BE3F48AE28EB1DD00081C080 /* Card.swift */,
 				65AA9DE128E523B0002AEA6F /* Main.storyboard */,
 				65AA9DE928E523B1002AEA6F /* Info.plist */,
+				65AA9DEF28E523F8002AEA6F /* Support Files */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
@@ -148,7 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3F48AD28EB1D5B0081C080 /* Concentraion.swift in Sources */,
 				65AA9DE028E523B0002AEA6F /* ViewController.swift in Sources */,
+				BE3F48AF28EB1DD00081C080 /* Card.swift in Sources */,
 				65AA9DDC28E523B0002AEA6F /* AppDelegate.swift in Sources */,
 				65AA9DDE28E523B0002AEA6F /* SceneDelegate.swift in Sources */,
 			);
