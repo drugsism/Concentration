@@ -9,7 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    lazy var game = Concentration(numberOfPairIdCards: (cardButtons.count + 1)/2)
+    lazy var game = Concentration(numberOfPairIdCards: numberOfPairIdCards)
+
+	var numberOfPairIdCards: Int {
+		 return (cardButtons.count + 1)/2
+	}
     
     var flipCount = 0 {
         didSet {
@@ -44,7 +48,7 @@ class ViewController: UIViewController {
                 if card.isMatched {
                     button.isHidden = true
                 } else {
-                    button.backgroundColor = UIColor.orange
+				  button.backgroundColor = UIColor.systemIndigo
                 }
             }
         }
